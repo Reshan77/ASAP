@@ -10,5 +10,6 @@ Instructions:
 For admin login:http://127.0.0.1:8000/admin
 
 Admin:
-Username:reshan
-Pasword:1234
+-Username:reshan
+
+-Pasword:1234
