@@ -1,0 +1,19 @@
+<!-- find_bus.html -->
+{% extends 'base.html' %}
+
+{% block content %}
+  <form method="POST">
+    {% csrf_token %}
+    <label>Source:</label>
+    <input type="text" name="source"><br><br>
+    <label>Destination:</label>
+    <input type="text" name="destination"><br><br>
+    <button type="submit">Find Buses</button>
+  </form>
+  {% if buses %}
+    <table>
+      <thead>
+        <tr>
+          <th>Bus Number</th>
+          <th>Bus Name</th>
+          <th>Total Seats</th>
