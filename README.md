@@ -1,2 +1,2 @@
 # ASAP
-I am create a python django project 
+l Developed in Python django Project for ASAP
