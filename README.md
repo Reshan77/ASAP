@@ -7,7 +7,7 @@ Instructions:
 
 -python manage.py runserver
 
-For admin login:http://127.0.0.1:8000/admin
+For admin page:http://127.0.0.1:8000/admin
 
 Admin:
 
